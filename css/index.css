@@ -58,10 +58,16 @@ header .nav {
 }
 
 /* LOGO */
-.logo {
-  height: 150px;
-  align-content: center;
+.contenedor-logo {
+  display: flex;
+  align-items: center;
 }
+
+.logo {
+  height: 150px; 
+  object-fit: contain;
+}
+
 
 /* LINKS */
 .nav_lista {
