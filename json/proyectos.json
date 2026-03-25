@@ -1,0 +1,40 @@
+[
+  {
+    "titulo": "Appdoptame",
+    "descripcion": "Aplicación web para gestionar adopción de mascotas, permitiendo publicar, visualizar y administrar registros.",
+    "imagenes": ["./assets/proyectos/appdoptame.png"],
+    "tecnologias": {
+      "frontend": ["React", "Redux"],
+      "backend": ["Node.js"],
+      "database": ["MongoDB"]
+    },
+    "github": "https://github.com/NataliaBelen95/deploy-adopptame"
+  },
+  {
+    "titulo": "Uninet - Red Social Universitaria",
+    "descripcion": "Aplicación web para conectar estudiantes, compartir contenido y descubrir publicaciones relevantes.",
+    "imagenes": [
+      "./assets/proyectos/uninetfotos/inicio.png",
+       "./assets/proyectos/uninetfotos/home.png",
+     "./assets/proyectos/uninetfotos/chat.png",
+      "./assets/proyectos/uninetfotos/resumenIA.png"
+    ],
+    "tecnologias": {
+      "backend": ["Spring", "Hibernate"],
+      "database": ["MySQL"],
+
+      "otros": ["Docker", "Apache Lucene"]
+    },
+    "github": "https://github.com/NataliaBelen95/Uninet"
+  },
+  {
+    "titulo": "API de gestión de pedidos",
+    "descripcion": "Backend para gestionar productos, proveedores y pedidos mediante endpoints REST.",
+    "imagenes": [],
+    "tecnologias": {
+      "backend": ["Spring Boot", "Hibernate"],
+      "database": ["PostgreSQL"]
+    },
+    "github": "https://github.com/NataliaBelen95/sistema-pedidos-negocio"
+  }
+]

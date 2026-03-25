@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+      <header>
+        <nav class="nav">
+          <div class="menu-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+                 </div>
+            <ul class="nav_lista">
+                <li class="lista-items"><a href="#aboutMe" class="nav-link">Sobre Mi</a></li>
+                <li class="lista-items"><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+                <li class="lista-items"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li class="lista-items"><a href="#contacto" class="nav-link">Contactame</a></li>
+                <li><a href="./assets/cv.11.03.2026/NataliaRamirez.cv.docx" download  style="vertical-align: middle;"><i class="fa-solid fa-file-code"></i></a></li>
+               
+            </ul>
+        </nav>
+      </header>
+   
+      <section class="hero">
+        <div class="hero-content">
+         <h1 class="hero-title">Natalia Ramirez</h1>
+         <p class="hero-subtitle">Full Stack Developer | Backend</p>
+          <div class="hero-redes">
+            <a href="https://github.com/NataliaBelen95" target="_blank" class="social-icon"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/natalia-ramirez-117626119/" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/NatiBelen95" class="social-icon"><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
+        </div>
+          <div class="contenedor-boton">
+  <a href="#contacto" class="boton">Contactarme</a>
+          </div>
+      </section>
+
+
+<div class="contenedor-sections">
+   <section class="sobreMi" id="aboutMe">
+      <div class="sobre-contenido">
+        <div class="sobre-texto">
+        <h2 class="titulo">Sobre mí</h2>
+      <div class="badges">
+        <span class="badge">Full Stack</span>
+        <span class="badge">Backend</span>
+      </div>
+          <p>Soy desarrolladora Full Stack con orientación backend, con experiencia en desarrollo de
+             aplicaciones web utilizando JavaScript, React y Node.js, además de backend con Java y Spring Boot.
+          </p>
+          <p>Me interesa el desarrollo de APIs REST y aplicaciones escalables, trabajando con bases de datos y 
+            arquitectura cliente-servidor. Actualmente me encuentro cursando la tecnicatura en Desarrollo Web para seguir fortaleciendo mis conocimientos.
+          </p>
+       </div>
+
+    <div class="sobre-extra">
+      <p><strong>Ubicación:</strong> Buenos Aires, Argentina</p>
+      <p><strong>Stack principal:</strong> Java + Spring Boot</p>
+    </div>
+
+    <a  href="./assets/cv.11.03.2026/NataliaRamirez.cv.docx" download  style="vertical-align: middle;" class="boton">Descargar CV</a>
+
+  </div>
+
+</section>
+
+
+<section class="tecnologias" id="tecnologias">
+
+  <div class="tech-container">
+
+    <h2 class="titulo">Tecnologías</h2>
+
+    <div class="tech-grid-container">
+
+      <div class="tech-block">
+        <h3>Frontend</h3>
+        <div class="tech-grid">
+          <img src="./assets/html.png" alt="HTML">
+          <img src="./assets/css.png" alt="CSS">
+          <img src="./assets/js.png" alt="JavaScript">
+          <img src="./assets/react.png" alt="React">
+          <img src="./assets/redux.svg" alt="Redux">
+        </div>
+      </div>
+
+      <div class="tech-block">
+        <h3>Backend</h3>
+        <div class="tech-grid">
+          <img src="./assets/java.png" alt="Java">
+          <img src="./assets/spring.png" alt="Spring">
+          <img src="./assets/php.png" alt="PHP">
+          <img src="./assets/node.png" alt="Node.js">
+        </div>
+      </div>
+
+      <div class="tech-block">
+        <h3>Bases de datos</h3>
+        <div class="tech-grid">
+          <img src="./assets/sql.png" alt="SQL">
+          <img src="./assets/mongo-db.png" alt="MongoDB">
+        </div>
+      </div>
+
+      <div class="tech-block">
+        <h3>Herramientas</h3>
+        <div class="tech-grid">
+          <img src="./assets/sequelize.png" alt="Sequelize">
+            <img src="./assets/github.png" alt="Sequelize">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="proyectos" id="proyectos">
+  <h2 class="titulo">Proyectos</h2>
+      
+      </section> 
+
+   
+      <section class="contactame" id="contacto">
+
+  <h2 class="titulo">Contacto</h2>
+
+<form class="form-contacto" action="https://formspree.io/f/mjgannza" method="POST">
+
+  <input type="text" name="name" placeholder="Nombre" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Mensaje" required></textarea>
+
+  <button type="submit" class="boton">Enviar mensaje</button>
+
+  <p id="formMsg" class="form-msg"></p>
+
+</form>
+
+</section>
+
+      </div>
+
+      <footer class="footer">
+<p>© <span id="year"></span> Natalia Ramirez</p>
+
+  <div class="footer-redes">
+    <a href="https://github.com/NataliaBelen95" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/natalia-ramirez-117626119/" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+</footer>
+
+    <script src="./js/index.js"></script>
+    <div class="modal-img" id="modalImg">
+  <span class="cerrar">&times;</span>
+  <img class="modal-contenido" id="imgZoom">
+</div>
+</body>
+</html>
