@@ -260,6 +260,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -276,14 +277,19 @@ section {
    
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
+
 
 .sobre-contenido {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 20px;
-  max-width: 700px;
+ max-width: 700px;
+  margin: 0 auto; /* centra el bloque */
+  text-align: left;
 }
+
 .sobre-extra {
   display: flex;
   flex-direction: column;
@@ -303,7 +309,8 @@ font-size: 13px;
 }
 
 .sobreMi p{
-    font-size: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
 }
 
 
@@ -413,6 +420,7 @@ color: #cad2d9;
   backdrop-filter: blur(6px);
   border: 1px solid rgba(168,85,247,0.15);
   transition: 0.3s;
+   
 }
 
 .tarjeta:hover {
@@ -423,18 +431,18 @@ color: #cad2d9;
 .contenido-card {
   padding: 20px;
   display: flex;
-    height: 100%;
+  height: 100%;
   flex-direction: column;
   gap: 12px;
 }
 .tarjeta h3 {
   color: #e5e7eb;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .tarjeta p {
-  font-size: 0.9rem;
-  color: #9ca3af;
+ font-size: 1.05rem;
+color: #9ca3af;
 }
 .proyecto-img {
   overflow: hidden;
@@ -470,7 +478,7 @@ color: #cad2d9;
   justify-content: center;
   height: 25px;
   gap: 6px;
-  font-size: 13px;
+  font-size: 1.05rem;
 }
 .controles button:hover {
   background: #a855f7;
@@ -801,6 +809,9 @@ button {
 }
 
  .tech-grid-container {
-    grid-template-columns: 1fr; /* 🔥 pasa a una columna */
+    grid-template-columns: 1fr; 
   }
+.sobre-contenido {
+    padding: 0 20px;  
+  } 
 }
