@@ -418,8 +418,9 @@ color: #cad2d9;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+   min-height: 400px;
   width: 100%;
-  min-height: 400px;
+
   backdrop-filter: blur(6px);
   border: 1px solid rgba(168,85,247,0.15);
   transition: 0.3s;
