@@ -395,10 +395,8 @@ color: #cad2d9;
 /*proyectos section */
 
 .proyectos {
-  grid-area: section-3;
   display: grid;
-  grid-template-columns: repeat(2, minmax(320px, 450px));
-  justify-content: center; /* 🔥 centra las cards */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   padding: 40px;
 }
