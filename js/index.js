@@ -48,7 +48,7 @@ links.forEach(link => {
   fetch('./json/proyectos.json')
     .then(res => res.json())
     .then(data => {
-      const contenedor = document.querySelector('.proyectos');
+     const contenedor = document.querySelector('.proyectos');
 
       data.forEach((proyecto) => {
         const card = document.createElement('article');
