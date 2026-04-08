@@ -798,11 +798,22 @@ button {
     transform: translateY(0);
   }
 
-  /*proyectos*/
-   .proyectos {
-    grid-template-columns: 1fr; 
+  
+
+  .proyectos {
+    grid-template-columns: 1fr;
     padding: 20px;
   }
+
+  .tarjeta {
+    max-width: 100%;
+  }
+
+  .contenido-card {
+    width: 100%;
+  }
+
+}
    section {
   width: 100%;
   padding: 40px 20px;
