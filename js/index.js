@@ -76,7 +76,7 @@ links.forEach(link => {
               : `
               <div class="sin-img">
                 <i class="fa-solid fa-code"></i>
-                <span>Backend Project</span>
+                <span>Full Stack Project</span>
               </div>
               `
           }
