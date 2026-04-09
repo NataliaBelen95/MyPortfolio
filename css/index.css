@@ -437,6 +437,7 @@ color: #cad2d9;
   display: flex;
   height: 100%;
   flex-direction: column;
+   justify-content: space-between;
   gap: 12px;
 }
 .tarjeta h3 {
@@ -482,7 +483,7 @@ color: #9ca3af;
 }
 
 .tarjeta .boton {
-  margin-top: auto;
+ 
 }
 
 .modal-img {
